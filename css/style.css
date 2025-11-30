@@ -1,10 +1,10 @@
 body {
-background-color: #EBEBEB;
+background-color: #fdf1f1;
 color: #333;
 font-family: "Red Hat Display", sans-serif;
 }
 
-section, header, footer {
+section, header {
 width: 80%;
 max-width: 900px;
 margin: auto;
@@ -37,4 +37,73 @@ blockquote {
     color: #600808;
     padding-top: 1rem;
     hanging-punctuation: first;
+}
+
+/*-- CSS DONE IN WEEK 10 --*/
+/*-- STYLING NAVIGATION, LINKS AND FOOTER --*/
+
+.responsivenav {
+background-color: #9C2424;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#logo {
+    font-family: "Domine", serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px dashed;
+}
+
+a:hover {
+    color: #600808;;
+    transition: all 0.35s ease-in-out;
+}
+
+
+nav {
+display: flex;
+padding: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    letter-spacing: 1.5px;
+    list-style-type: none;
+    padding-right: 35px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 2rem;
+}
+
+nav a {
+    border-bottom: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #9C2424;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.professional{
+background-color: #c28e8e;
+padding: 3rem;
+
 }
